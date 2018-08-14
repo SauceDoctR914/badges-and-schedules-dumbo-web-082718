@@ -24,7 +24,6 @@ end
 end
 
 
-end
 def printer(names)
   badges   =   get_badges(names)
   schedule = assign_rooms(names)
