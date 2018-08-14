@@ -24,5 +24,6 @@ end
 end
 
 def printer(arg)
-  puts "Hello, my name is #{arg}."
+  arg.each do |name|
+  puts "Hello, my name is #{name}."
 end
