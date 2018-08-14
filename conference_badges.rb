@@ -23,12 +23,9 @@ end
   return rooms
 end
 
-def printer(arg)
-  arg.each do |name|
-  puts "Hello, my name is #{name}."
+
 end
-end
-def printout(names)
+def printer(names)
   badges   =   get_badges(names)
   schedule = assign_rooms(names)
 
