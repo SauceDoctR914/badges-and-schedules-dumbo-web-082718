@@ -28,4 +28,10 @@ def printer(arg)
   puts "Hello, my name is #{name}."
 end
 end
+def printout(names)
+  badges   =   get_badges(names)
+  schedule = assign_rooms(names)
 
+  badges.each {|badge| puts badge}
+  schedule.each {|assignment| puts assignment}
+end
