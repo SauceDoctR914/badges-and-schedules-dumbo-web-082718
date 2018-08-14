@@ -2,7 +2,7 @@
   
   
   def batch_maker(array)
-    array.each {|name| puts "Hello, my name is #{name}"}
+    array.each do {|name| puts "Hello, my name is #{name}"}
   end
   
   def assign_rooms(list)
