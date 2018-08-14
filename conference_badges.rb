@@ -24,4 +24,5 @@ end
 end
 
 def printer(arg)
+  puts "Hello, my name is #{arg}."
 end
