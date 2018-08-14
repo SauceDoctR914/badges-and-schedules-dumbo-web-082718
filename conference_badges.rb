@@ -23,5 +23,5 @@ end
   return rooms
 end
 
-def printer
+def printer(arg)
 end
