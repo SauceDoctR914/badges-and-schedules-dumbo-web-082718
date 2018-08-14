@@ -18,7 +18,7 @@ end
     rooms = []
     list.each do |name|
       number = list.index(name) + 1
-    rooms.push("Hello, #{name}! You'll be assigned to room #{number}.")
+    rooms.push("Hello, #{name}! You'll be assigned to room #{number}!")
   end
   return rooms
 end
