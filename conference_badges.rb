@@ -2,6 +2,7 @@
   
   
   def badge_maker(array)
+    speakers =
     array.each do |name| 
       puts "Hello, my name is #{name}"
   end
