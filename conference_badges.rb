@@ -25,7 +25,6 @@ end
 
 def printer(arg)
   arg.each do |name|
-    name = gets.chomp
   puts "Hello, my name is #{name}."
 end
 end
