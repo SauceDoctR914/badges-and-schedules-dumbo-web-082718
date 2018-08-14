@@ -31,4 +31,3 @@ def printer(names)
   badges.each {|badge| puts badge}
   schedule.each {|assignment| puts assignment}
 end
-end
