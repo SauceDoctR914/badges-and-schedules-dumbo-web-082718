@@ -1,5 +1,5 @@
-def badge_maker(array)
-  array.each {|element| puts "Hello, my name is #{element}"}
+def badge_maker(name)
+  array.each {|name| puts "Hello, my name is #{name}"}
   
 end
   # Write your code here.
