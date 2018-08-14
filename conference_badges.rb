@@ -2,8 +2,7 @@
      
   
   def badge_maker(array)
-    speakers = ['Edsger', 'Ada', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz']
-    return speakers.each do |name| 
+    return array.each do |name| 
       puts "Hello, my name is #{name}"
   end
 end
